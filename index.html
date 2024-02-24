@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0 ">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header class="logo">
+       <a href="https://www.alura.com.br"><img src="assets/Logo.svg"></a>
+    </header>
+    <main class="principal">
+        <h1 class="titulo">Decodificador de Texto</h1>
+
+        <div class="container">
+
+            <textarea class="area-texto1"  name="area1" id="d1" placeholder="Digite aqui"></textarea>
+            <textarea class="area-texto2" name="area2" id="d2" placeholder="Resultado" ></textarea>
+               
+        </div>
+        
+        <section class="aviso">
+            
+            <img src ="./assets/icon.svg"  class="icone">
+            <p class="texto_icone">Atenção: Apenas letras minúsculas e sem acento.</p> 
+            
+        </section>
+
+        <section class="area_botoes">
+            <button class="botao1" onclick="criptografar()" id="btn1">Criptografar</button>
+            <button class="botao2" onclick="descriptografar()" id="btn2">Descriptografar</button>
+            <button class=" botao3" onclick="copiar()" id="btn3" >Copiar</button>
+        </section>
+       
+    </main>
+
+    <footer class="rodape">
+        <a href="https://github.com/jailtonCosta" target="_blank"><img src="assets/github.png" class="icone_app"></a>
+        <a href="https://www.linkedin.com/in/jailtonfranco/" target="_blank"><img src="assets/linkedin.png" class="icone_app"></a>
+        <p> Desenvolvido por Jailton Franco</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

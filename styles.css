@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-principal:#F3F5FC;
+    --cor-texto-icone:#495057;
+    --cor-botao:#0A3871;
+    --cor-hover:#8a8787;
+    
+}
+
+body{
+    background-color: #c7c3d8c5;
+}
+.logo{
+    padding-bottom: 3%;
+    margin-left: 18%;
+    margin-top: 10px;
+    width:120px;
+    height: 48px;
+    text-decoration: none;
+    
+
+}
+
+.principal{
+    margin : auto;
+    min-width: 300px;
+    max-width: 1200px;
+    height: 700px;
+    border-radius: 10px;
+    background-color:var(--cor-principal);
+    
+}
+.titulo{
+    text-align: center;
+    color: var(--cor-botao);
+    margin-bottom: 5px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 2%;
+    
+}
+.area-texto1{
+    width: 500px;
+    height: 350px;
+    border-radius: 2%;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px var(--cor-texto-icone);
+    
+    
+}
+.area-texto2{
+    width: 500px;
+    height: 350px;
+    border-radius: 2%;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px var(--cor-texto-icone);
+}
+.aviso{
+    display: flex;
+    padding-top: 2%;
+    margin-left: 15%;  
+}
+
+.icone{
+    width: 16px;
+    height: 16px;
+    color: var(--cor-texto-icone);
+}
+.texto_icone{
+    margin-left: 10px;
+    margin-top: 0;
+    color: var(--cor-texto-icone);
+    opacity: 0.8;
+    
+    
+}
+.area_botoes{
+    margin-left: 14%;
+    padding-top: 2%;
+   
+}
+
+.botao1{
+   
+   width: 200px;
+   height: 50px;
+   border-radius: 24px;
+   background-color: var(--cor-botao);
+   color: var(--cor-principal);
+   font:20px Arial ;
+}
+.botao2{
+    width: 200px;
+    height: 50px;
+    border-radius: 24px;
+    border: 2px solid var(--cor-botao);
+    font:20px Arial ;
+}
+.botao3{
+    width: 200px;
+    height: 50px;
+    border-radius: 24px;
+    border: 2px solid var(--cor-botao);
+    font:20px Arial ;
+    margin-left: 18%;
+   
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    gap:0.5%;
+    color: var(--cor-botao);
+}
+.icone_app{
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
